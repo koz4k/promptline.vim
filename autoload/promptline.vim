@@ -8,7 +8,7 @@ let s:SHELL_FG_CODE = 38
 let s:SHELL_BG_CODE = 48
 
 let s:default_theme = 'powerlineclone'
-let s:default_preset = 'powerlineclone'
+let s:default_preset = 'koz4k'
 
 fun! promptline#snapshot(overwrite, file, ...) abort
   let input_theme = get(a:, 1, get(g:, 'promptline_theme', s:default_theme))
